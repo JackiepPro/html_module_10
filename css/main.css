@@ -523,8 +523,8 @@ input[type="text"]::placeholder {
     color: #cccccc; 
 } 
 
-@media (-webkit-min-device-pixel-ratio: 2) {
+/* @media (-webkit-min-device-pixel-ratio: 2) {
     .box-sm-goods {
         background-image: url(../image/man-1.jpg);
     }
-}
+} */
