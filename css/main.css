@@ -126,7 +126,7 @@
 
 .main-heading, .main-heading-lg,
 .intro-btn, .logo__link:hover, .logo__link,
-.menu li a, .intro-btn:hover, .icons:hover,
+.menu li a, .intro-btn:hover,
 .footer-btn   {
     color: #fff;
 }
@@ -258,6 +258,7 @@
     border: 1px solid transparent;
     padding: 14px 12px 13px;
     height: 50px;
+    width: 50px;
     background-color: #fce38a;
 }
 
@@ -266,14 +267,13 @@
     border: 1px solid #f38181;   
 }
 
-.icons {
+.icons{
     width: 26px;
     height: 23px;
-    fill: #f38181;
+    /* fill: #f38181; */
 }
-
-.icons:hover {
-   color: #fff;
+.icons:hover{
+   fill: #fff;
 }
 
 .box-sm-goods {
