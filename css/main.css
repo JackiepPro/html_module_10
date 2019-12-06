@@ -50,13 +50,16 @@
 }
 
 .logo {
-    text-decoration: none;
     display: inline-block;
 }
 
+.logo__link:hover {
+    text-decoration: none;
+}
+
+
 .logo__link {
     text-decoration: none;
-    color: #fff;
     font: 30px "Montserrat", sans-serif;
     font-weight: 800;
 }
@@ -80,10 +83,10 @@
     padding: 0;
 }
 
+
 .menu li a {
     text-decoration: none;
     font: 14px "Montserrat", sans-serif;
-    color: #fff;
     line-height: 11px;
     font-weight: 400;
     text-transform: uppercase;
@@ -119,7 +122,9 @@
 }
 
 .main-heading, .main-heading-lg,
-.intro-btn  {
+.intro-btn, .logo__link:hover, .logo__link,
+.menu li a, .intro-btn:hover, .icons:hover,
+.footer-btn   {
     color: #fff;
 }
 
@@ -183,7 +188,6 @@
     transition-property: all;
     transform: translate(10px, 5px);
     transition-duration: 0.25s;
-    color: #fff;
 }
 
 .intro-heading {
@@ -258,9 +262,10 @@
     height: 23px;
 }
 
-.icons:hover {
-    color: #fff;
+.icons:hover path{
+   fill: #fff;
 }
+
 
 .box-sm-goods {
     display: inline-block;
@@ -352,11 +357,6 @@
     margin-top: 46px;
 }
 
-/* .names p:last-child {
-    font-family: 'Roboto-LightItalic';
-} */
-
-
 /* footer */
 .footer > .box-flex {
     align-items: center;
@@ -380,7 +380,6 @@
 .footer-btn {
     background-color: #95e1d3;
     border: 1px solid #95e1d3;
-    color: #fff;
     text-transform: uppercase;
     font: 14px "Montserrat", sans-serif;
     text-align: center;
