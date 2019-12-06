@@ -260,6 +260,7 @@
     height: 50px;
     width: 50px;
     background-color: #fce38a;
+    text-align: center;
 }
 
 .button-overlay:hover {
@@ -267,12 +268,12 @@
     border: 1px solid #f38181;   
 }
 
-.icons{
+svg {
     width: 26px;
     height: 23px;
     /* fill: #f38181; */
 }
-.icons:hover{
+svg:hover{
    fill: #fff;
 }
 
@@ -434,6 +435,10 @@
     font-weight: 700;
     outline:none;
     cursor: pointer;
+}
+
+.footer-btn:hover {
+    background-color: aquamarine;
 }
 
 .flex {
