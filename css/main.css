@@ -45,6 +45,12 @@
     height: 100vh;
 }
 
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .wrapper {
+        background-image: url(../image/intro-banner@2x-min.png);
+    }
+}
+
 /* start header */
 .header {
     padding-bottom: 18px;
@@ -164,8 +170,29 @@
     color: #999999;
 }
 
+.basket, .search {
+    width: 20px;
+    fill: #fff;
+    height: 20px;
+}
+
+/* '''''' */
 
  /* end coomon style */
+ .basket {
+    margin-right: 15px;
+}
+
+.button-overlay .icons {
+    width: 26px;
+    height: 23px;
+    fill: #f38181;
+}
+
+.button-overlay .icons:hover {
+    fill: #fff;
+}
+
 .block-main {
     margin: 0 auto;
 }
@@ -176,6 +203,9 @@
 
 .main-heading-lg {
     font-size: 150px;
+    display: block;
+    width: 66.61%;
+    margin: 0 auto;
 }
 
 .intro-btn {
@@ -185,6 +215,7 @@
     margin: 0 auto;
     height: 34px;
     line-height: 2;
+    text-decoration: none;
 }
 
 .intro-btn:hover {
@@ -528,8 +559,3 @@ input[type="text"]::placeholder {
     color: #cccccc; 
 } 
 
-/* @media (-webkit-min-device-pixel-ratio: 2) {
-    .box-sm-goods {
-        background-image: url(../image/man-1.jpg);
-    }
-} */
